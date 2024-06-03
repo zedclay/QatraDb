@@ -31,9 +31,18 @@ Update the .env file to configure the MySQL database connection:
 
 env
 Copy code
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_username
+    DB_PASSWORD=your_password
+
+Generate an application key:
+
+    ```bash
+    php artisan key:generate
+    Run database migrations:
+    php artisan migrate
+    php artisan serve
