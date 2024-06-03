@@ -30,7 +30,7 @@ Ensure you have the following software installed on your machine:
 Update the .env file to configure the MySQL database connection:
 
 env
-Copy code
+
     ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
